@@ -4,7 +4,7 @@
 **E-mail:** timohinsermain@gmail.com  
 **Telegram:** @timohinser33  
 **Discord:** @Sergey Timohin#0906
-
+***
 ## About myself:
 I'm from Minsk Belarus. I'm 38 years old. At present i work as a production manager at one of the factories. 
 
@@ -16,10 +16,11 @@ My strengths:
 + desire for development
 + attention to details
 + positive thinking
-
+***
 ## Skills: 
 + HTML, CSS
 + JS, JQuery
 + Git, Github
 + VSCode 
 + Figma, Photoshope
+***
