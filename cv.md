@@ -17,6 +17,9 @@ My strengths:
 + attention to details
 + positive thinking
 
-
-
-
+## Skills: 
++ HTML, CSS
++ JS, JQuery
++ Git, Github
++ VSCode 
++ Figma, Photoshope
