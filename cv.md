@@ -24,3 +24,17 @@ My strengths:
 + VSCode 
 + Figma, Photoshope
 ***
+## Code example:
+
+```
+function isPalindrome(x) {
+  x = x.toLowerCase();
+  let reversedX = x.split('').reverse().join('');
+  if (x === reversedX) {
+    return true;
+  } else {
+    return false;       
+  }
+}
+```
+***
