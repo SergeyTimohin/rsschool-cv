@@ -38,3 +38,11 @@ function isPalindrome(x) {
 }
 ```
 ***
+## Education:
+* [Belarusian State Technological University](https://www.belstu.by/)
+* [From 0 to 1 (By Vadim Procopchuk)](https://from0to1.com.ua/)
+* [Udemy](https://www.udemy.com/course/javascript_full/)
+* [IT-Academy](https://www.it-academy.by/course/front-end-developer/fd1-razrabotka-veb-saytov-s-ispolzovaniem-html-css-i-javascript/)
+***
+## English level:
+Pre Intermediate (A2) +
