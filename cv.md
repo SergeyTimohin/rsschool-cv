@@ -3,7 +3,7 @@
 **Phone:** +375 29 130-18-03  
 **E-mail:** timohinsermain@gmail.com  
 **Telegram:** @timohinser33  
-**Discord:** @Sergey Timohin#0906
+**Discord:** @Sergey Timohin#0906  
 ***
 ## About myself:
 I'm from Minsk Belarus. I'm 38 years old. At present i work as a production manager at one of the factories. 
@@ -15,14 +15,14 @@ My strengths:
 + ability to work for results
 + desire for development
 + attention to details
-+ positive thinking
++ positive thinking  
 ***
 ## Skills: 
 + HTML, CSS
 + JS, JQuery
 + Git, Github
 + VSCode 
-+ Figma, Photoshope
++ Figma, Photoshope  
 ***
 ## Code example:
 
@@ -42,7 +42,7 @@ function isPalindrome(x) {
 * [Belarusian State Technological University](https://www.belstu.by/)
 * [From 0 to 1 (By Vadim Procopchuk)](https://from0to1.com.ua/)
 * [Udemy](https://www.udemy.com/course/javascript_full/)
-* [IT-Academy](https://www.it-academy.by/course/front-end-developer/fd1-razrabotka-veb-saytov-s-ispolzovaniem-html-css-i-javascript/)
+* [IT-Academy](https://www.it-academy.by/course/front-end-developer/fd1-razrabotka-veb-saytov-s-ispolzovaniem-html-css-i-javascript/)  
 ***
 ## English level:
 Pre Intermediate (A2) +
