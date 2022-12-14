@@ -79,6 +79,13 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.header__nav-link:hover {
+  border: 1px solid #fff;
 }
 
 .main {
@@ -88,6 +95,96 @@ body {
 .user__contacts {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
   align-items: center;
+  padding: 30px 0;
+  border-bottom: 5px solid #333333;
+}
+
+.user__photo {
+  width: 250px;
+  height: 250px;
+  background-color: #333333;
+  border-radius: 20px;
+}
+
+.user__name-wrapper {
+  text-align: center;
+  padding: 15px;
+  min-width: 380px;
+}
+
+.user__name {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333333;
+}
+
+.user__status {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.user__contacts-item {
+  font-size: 20px;
+  font-weight: 600;
+  min-width: 380px;
+}
+
+.user__contacts-link,
+.user__contacts-text {
+  padding: 10px 0 10px 40px;
+}
+
+.user__contacts-text {
+  display: inline-block;
+}
+
+.user__contacts-item {
+  position: relative;
+  border-bottom: 1px solid transparent;
+}
+
+.user__contacts-link {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.user__contacts-link:hover {
+  color: #ff4500;
+}
+
+
+.user__contacts-item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 24px;
+  height: 24px;
+  z-index: -1;
+}
+
+.contacts__location::before {
+  background-image: url('../assets/svg/location.svg');
+}
+
+.contacts__mail::before {
+  background-image: url('../assets/svg/mail.svg');
+}
+
+.contacts__telegram::before {
+  background-image: url('../assets/svg/telegram.svg');
+}
+
+.contacts__discord::before {
+  background-image: url('../assets/svg/discord.svg');
+}
+.contacts__github::before {
+  background-image: url('../assets/svg/github.svg');
 }
