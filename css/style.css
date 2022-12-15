@@ -36,7 +36,7 @@ body {
   min-height: 100vh;
   font-family: 'Noto Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   color: #333333;
 }
 
@@ -46,13 +46,8 @@ body {
   padding: 0 10px;
 }
 
-/* .header,
-.footer {
-  height: 100px;
-} */
-
 .header__inner,
-.footer__inner {
+.footer__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,6 +85,12 @@ body {
 
 .main {
   margin-bottom: auto;
+}
+
+.main__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .user__contacts {
@@ -149,12 +150,14 @@ body {
   border-bottom: 1px solid transparent;
 }
 
-.user__contacts-link {
+.user__contacts-link,
+.section__list-link {
   cursor: pointer;
   transition: 0.3s;
 }
 
-.user__contacts-link:hover {
+.user__contacts-link:hover,
+.section__list-link:hover {
   color: #ff4500;
 }
 
@@ -167,7 +170,7 @@ body {
   top: 9px;
   width: 24px;
   height: 24px;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .contacts__location::before {
@@ -185,6 +188,73 @@ body {
 .contacts__discord::before {
   background-image: url('../assets/svg/discord.svg');
 }
+
 .contacts__github::before {
   background-image: url('../assets/svg/github.svg');
+}
+
+.main__inner {
+  background-color: #f9fae0db;
+}
+
+.section {
+  width: 49%;
+  min-width: 580px;
+  padding: 20px 10px;
+  border-bottom: 1px solid #333333;
+}
+
+.section__title {
+  margin: 20px 0 30px;
+
+}
+
+.section__text {
+  margin: 20px;
+  line-height: 1.2;
+}
+
+.section__subtitle {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.section__list {
+  margin-left: 23px;
+}
+
+.section__list-item {
+  list-style-type: disc;
+  margin: 10px 0;
+}
+
+.section__code {
+  margin-left: 20px;
+}
+
+.section__list-link {
+  font-weight: 600;
+}
+
+.footer__list {
+  justify-content: space-around;
+  text-align: center;
+  color:#fff;
+}
+
+.footer__RSS-link {
+  width: 130px;
+}
+
+.footer__list-span {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.footer__link {
+  transition: 0.3s;
+}
+
+.footer__link:hover {
+  transform: scale(1.1);
 }
