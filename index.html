@@ -5,7 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
+  <link rel="icon" href="assets/favicon.ico">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,12 +18,13 @@
       <div class="header__inner">
         <nav class="header__nav">
           <ul class="header__nav-list">
-            <li class="header__nav-item"><a class="header__nav-link" href="">Contacts</a></li>
-            <li class="header__nav-item"><a class="header__nav-link" href="">About</a></li>
-            <li class="header__nav-item"><a class="header__nav-link" href="">Skills</a></li>
-            <li class="header__nav-item"><a class="header__nav-link" href="">Code</a></li>
-            <li class="header__nav-item"><a class="header__nav-link" href="">Education</a></li>
-            <li class="header__nav-item"><a class="header__nav-link" href="">English</a></li>
+            <li class="header__nav-item"><a class="header__nav-link"  href="#contacts">Contacts</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#about">About</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#skills">Skills</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#code">Code</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#education">Education</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#progects">Progects</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#english">English</a></li>
           </ul>
         </nav>
       </div>
@@ -29,7 +33,7 @@
   <main class="main">
     <div class="container">
       <div class="main__inner">
-        <section class="user__contacts">
+        <section class="user__contacts" id="contacts">
           <img class="user__photo" src="assets/img/user_photo.jpg" alt="user photo">
           <div class="user__name-wrapper">
             <h1 class="user__name">Sergey Timohin</h1>
@@ -53,7 +57,7 @@
             </li>
           </ul>
         </section>
-        <section class="section user__about">
+        <section class="section user__about" id="about">
           <h2 class="section__title">About myself:</h2>
           <p class="section__text">
             I am from Minsk Belarus. I am 38 years old. At present i work as a production manager at one of the factories.
@@ -69,7 +73,7 @@
             <li class="section__list-item">positive thinking</li>
           </ul>
         </section>
-        <section class="section user__code">
+        <section class="section user__code" id="code">
           <h2 class="section__title">Code example:</h2>
           <pre class="section__code">
             <code>
@@ -85,7 +89,7 @@ function isPalindrome(x) {
             </code>
           </pre>
         </section>
-        <section class="section user__skills">
+        <section class="section user__skills" id="skills">
           <h2 class="section__title">Skills:</h2>
           <ul class="section__list">
             <li class="section__list-item">HTML, CSS</li>
@@ -95,7 +99,7 @@ function isPalindrome(x) {
             <li class="section__list-item">Figma, Photoshope</li>
           </ul>
         </section>
-        <section class="section user__education">
+        <section class="section user__education" id="education">
           <h2 class="section__title">Education:</h2>
           <ul class="section__list">
             <li class="section__list-item">
@@ -112,13 +116,13 @@ function isPalindrome(x) {
             </li>
           </ul>
         </section>
-        <section class="section user__progects">
+        <section class="section user__progects" id="progects">
           <h2 class="section__title">My progects:</h2>
           <ul class="section__list">
             <li class="section__list-item"><a class="section__list-link" href="https://timohinser.github.io/Jetro/">Jetro</a></li>
           </ul>
         </section>
-        <section class="section user__english">
+        <section class="section user__english" id="english">
           <h2 class="section__title">English level:</h2>
           <p class="section__text">Pre Intermediate (A2) +</p>
         </section>
