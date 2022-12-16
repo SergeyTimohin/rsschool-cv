@@ -27,6 +27,7 @@ li {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -96,7 +97,7 @@ body {
   flex-wrap: wrap;
 }
 
-.user__contacts {
+.contacts {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -106,20 +107,20 @@ body {
   border-bottom: 5px solid #333333;
 }
 
-.user__photo {
+.contacts__photo {
   width: 250px;
   height: 250px;
   background-color: #333333;
   border-radius: 20px;
 }
 
-.user__name-wrapper {
+.contacts__name-wrapper {
   text-align: center;
   padding: 15px;
   min-width: 380px;
 }
 
-.user__name {
+.contacts__name{
   font-size: 48px;
   font-weight: 700;
   padding-bottom: 20px;
@@ -127,45 +128,40 @@ body {
   border-bottom: 2px solid #333333;
 }
 
-.user__status {
+.contacts__status {
   font-size: 28px;
   font-weight: 700;
   margin-top: 20px;
 }
 
-.user__contacts-item {
+.contacts__list-item {
+  min-width: 380px;
+  position: relative;
   font-size: 20px;
   font-weight: 600;
-  min-width: 380px;
-}
-
-.user__contacts-link,
-.user__contacts-text {
-  padding: 10px 0 10px 40px;
-}
-
-.user__contacts-text {
-  display: inline-block;
-}
-
-.user__contacts-item {
-  position: relative;
   border-bottom: 1px solid transparent;
 }
 
-.user__contacts-link,
+.contacts__list-link,
+.contacts__text {
+  padding: 10px 0 10px 40px;
+}
+
+.contacts__text {
+  display: inline-block;
+}
+
+.contacts__list-link,
 .section__list-link {
-  cursor: pointer;
   transition: 0.3s;
 }
 
-.user__contacts-link:hover,
+.contacts__list-link:hover,
 .section__list-link:hover {
   color: #ff4500;
 }
 
-
-.user__contacts-item::before {
+.contacts__list-item::before {
   content: '';
   display: block;
   position: absolute;
@@ -173,7 +169,6 @@ body {
   top: 9px;
   width: 24px;
   height: 24px;
-  /* z-index: -1; */
 }
 
 .contacts__location::before {
@@ -209,12 +204,11 @@ body {
 
 .section__title {
   margin: 20px 0 30px;
-
 }
 
 .section__text {
   margin: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .section__subtitle {
@@ -249,7 +243,7 @@ body {
   width: 130px;
 }
 
-.footer__list-span {
+.footer__list-text {
   font-size: 22px;
   font-weight: 700;
 }
