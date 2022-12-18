@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a class="header__nav-link"  href="#contacts">Contacts</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#about">About</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#skills">Skills</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#code">Code</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#education">Education</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#progects">Progects</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="#english">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="main__inner">
+        <section class="contacts" id="contacts">
+          <img class="contacts__photo" src="assets/img/user_photo.jpg" alt="user photo">
+          <div class="contacts__name-wrapper">
+            <h1 class="contacts__name">Sergey Timohin</h1>
+            <h2 class="contacts__status">Junior front-end developer</h2>
+          </div>
+          <ul class="contacts__list">
+            <li class="contacts__list-item contacts__location">
+              <span class="contacts__text">Location: Minsk Belarus</span>
+            </li>
+            <li class="contacts__list-item contacts__mail">
+              <a class="contacts__list-link" href="mailto:timohinsermain@gmail.com">Email: timohinsermain@gmail.com</a>
+            </li>
+            <li class="contacts__list-item contacts__telegram">
+              <a class="contacts__list-link" href="https://t.me/timohinser33">Telegram: @timohinser33</a>
+            </li>
+            <li class="contacts__list-item contacts__discord">
+              <a class="contacts__list-link" href="https://discord.gg/pRdqTJbNVd">Discord: @Sergey Timohin#0906</a>
+            </li>
+            <li class="contacts__list-item contacts__github">
+              <a class="contacts__list-link" href="https://github.com/SergeyTimohin">Github: SergeyTimohin</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section user__about" id="about">
+          <h2 class="section__title">About myself:</h2>
+          <p class="section__text">
+            I am from Minsk Belarus. I am 38 years old. At present i work as a production manager at one of the factories.
+          </p>
+          <p class="section__text">
+            The main goal at this stage is to get a sufficient level of knowledge in front-end development to get a job offer in one of the leading IT companies.
+          </p>
+          <h3 class="section__subtitle">My strengths:</h3>
+          <ul class="section__list">
+            <li class="section__list-item">ability to work for results</li>
+            <li class="section__list-item">desire for development</li>
+            <li class="section__list-item">attention to details</li>
+            <li class="section__list-item">positive thinking</li>
+          </ul>
+        </section>
+        <section class="section user__code" id="code">
+          <h2 class="section__title">Code example:</h2>
+          <pre class="section__code">
+            <code>
+function isPalindrome(x) {
+  x = x.toLowerCase();
+  let reversedX = x.split('').reverse().join('');
+  if (x === reversedX) {
+    return true;
+  } else {
+    return false;
+  }
+}
+            </code>
+          </pre>
+        </section>
+        <section class="section user__skills" id="skills">
+          <h2 class="section__title">Skills:</h2>
+          <ul class="section__list">
+            <li class="section__list-item">HTML, CSS</li>
+            <li class="section__list-item">JS, JQuery</li>
+            <li class="section__list-item">Git, Github</li>
+            <li class="section__list-item">VSCode</li>
+            <li class="section__list-item">Figma, Photoshope</li>
+          </ul>
+        </section>
+        <section class="section user__education" id="education">
+          <h2 class="section__title">Education:</h2>
+          <ul class="section__list">
+            <li class="section__list-item">
+              <a class="section__list-link" href="https://www.belstu.by">Belarusian State Technological University</a>
+            </li>
+            <li class="section__list-item">
+              <a class="section__list-link" href="https://from0to1.com.ua">From 0 to 1 (By Vadim Procopchuk)</a>
+            </li>
+            <li class="section__list-item">
+              <a class="section__list-link" href="https://www.udemy.com/course/javascript_full">Udemy</a>
+            </li>
+            <li class="section__list-item">
+              <a class="section__list-link" href="https://www.it-academy.by/course/front-end-developer/fd1-razrabotka-veb-saytov-s-ispolzovaniem-html-css-i-javascript">IT-Academy</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section user__progects" id="progects">
+          <h2 class="section__title">My progects:</h2>
+          <ul class="section__list">
+            <li class="section__list-item">
+              <a class="section__list-link" href="https://timohinser.github.io/Jetro/">Jetro</a>
+            </li>
+            <li class="section__list-item">
+              <a class="section__list-link" href="https://sergeytimohin.github.io/rsschool-cv/cv">CV</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section user__english" id="english">
+          <h2 class="section__title">English level:</h2>
+          <p class="section__text">Pre Intermediate (A2) +</p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <span class="footer__list-text">
+            2022
+          </span>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__link footer__RSS-link" href="https://rs.school/js/">
+            <img class="footer__RSS-logo" src="assets/svg/rs_school_js.svg" alt="Logo RS School">
+          </a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__link footer__github-link" href="https://github.com/SergeyTimohin/rsschool-cv">
+            <img class="footer__github-logo" src="assets/svg/github_white.svg" alt="Logo Github">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
